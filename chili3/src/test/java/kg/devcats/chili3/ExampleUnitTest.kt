@@ -1,4 +1,4 @@
-package kg.devcats.chili3
+package kg.nurtelecom.design.chili3
 
 import org.junit.Test
 

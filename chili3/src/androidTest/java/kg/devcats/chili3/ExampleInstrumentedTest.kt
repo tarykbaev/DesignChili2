@@ -1,4 +1,4 @@
-package kg.devcats.chili3
+package kg.nurtelecom.design.chili3
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("kg.devcats.chili3.test", appContext.packageName)
+        assertEquals("kg.nurtelecom.design.chili3.test", appContext.packageName)
     }
 }

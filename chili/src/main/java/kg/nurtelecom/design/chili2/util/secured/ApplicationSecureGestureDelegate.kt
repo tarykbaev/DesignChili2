@@ -1,0 +1,147 @@
+package kg.nurtelecom.design.chili2.util.secured
+
+import android.annotation.SuppressLint
+import android.content.Context
+import android.content.Intent
+import android.content.pm.PackageManager
+import android.hardware.Sensor
+import android.hardware.SensorEvent
+import android.hardware.SensorEventListener
+import android.hardware.SensorManager
+import android.os.Build
+import android.os.VibrationEffect
+import android.os.Vibrator
+import android.util.Log
+import androidx.lifecycle.DefaultLifecycleObserver
+import androidx.lifecycle.LifecycleOwner
+import androidx.lifecycle.ProcessLifecycleOwner
+import androidx.localbroadcastmanager.content.LocalBroadcastManager
+import kg.nurtelecom.design.chili2.storage.ChiliComponentsPreferences
+
+class ApplicationSecureGestureDelegate : OnApplicationSecureGestureListener, SensorEventListener {
+
+    private lateinit var _context: Context
+    private var _isHasVibratePermission: Boolean = false
+
+    private val _prefs: ChiliComponentsPreferences by lazy {
+        ChiliComponentsPreferences.getInstance(_context)
+    }
+
+    private lateinit var _sensorManager: SensorManager
+    private lateinit var _vibrator: Vibrator
+    private var _gravitySensor: Sensor? = null
+
+    private var _isScreenDown = false
+    private var _screenDownTriggerTime: Long = 0
+    private var _isSecuredNow = false
+    private var _isSecureGestureWorking = false
+    private var _isAppActiveNow = false
+
+    override fun onApplicationCreated(context: Context) {
+        _context = context.applicationContext
+        _isSecuredNow = _prefs.isTextViewsSecuredNow
+        _isSecureGestureWorking = _prefs.isSecureGestureWorking
+        _isHasVibratePermission = _context.packageManager.checkPermission(
+            android.Manifest.permission.VIBRATE,
+            _context.packageName
+        ) == PackageManager.PERMISSION_GRANTED
+
+        initComponents()
+        setupAppLifecycleListener()
+        _sensorManager.registerListener(this, _gravitySensor, SensorManager.SENSOR_DELAY_UI)
+    }
+
+    private fun setupAppLifecycleListener() {
+        ProcessLifecycleOwner.get().lifecycle.addObserver(object : DefaultLifecycleObserver {
+            override fun onStart(owner: LifecycleOwner) {
+                super.onStart(owner)
+                _isAppActiveNow = true
+                _sensorManager.registerListener(
+                        this@ApplicationSecureGestureDelegate,
+                        _gravitySensor,
+                        SensorManager.SENSOR_DELAY_UI
+                    )
+            }
+
+            override fun onStop(owner: LifecycleOwner) {
+                _isAppActiveNow = false
+                _sensorManager.unregisterListener(this@ApplicationSecureGestureDelegate)
+                super.onStop(owner)
+            }
+        })
+    }
+
+    private fun initComponents() {
+        _sensorManager = _context.getSystemService(Context.SENSOR_SERVICE) as SensorManager
+        _gravitySensor = _sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER)
+        _vibrator = _context.getSystemService(Context.VIBRATOR_SERVICE) as Vibrator
+    }
+
+    override fun isSecuredNow(): Boolean = _isSecuredNow
+
+    override fun isSecureGestureWorking(): Boolean = _isSecureGestureWorking
+
+    override fun switchSecuredState() {
+        _isSecuredNow = !_isSecuredNow
+        _prefs.isTextViewsSecuredNow = _isSecuredNow
+        LocalBroadcastManager.getInstance(_context).sendBroadcast(Intent(BROADCAST_TAG))
+        pushVibration()
+    }
+
+    override fun updateSecureGestureState(isWorking: Boolean) {
+        _isSecureGestureWorking = isWorking
+        if (_isSecureGestureWorking) _prefs.isSecureGestureWorking = _isSecureGestureWorking
+        else resetAllState()
+    }
+
+    override fun onSensorChanged(event: SensorEvent?) {
+        if (!_isSecureGestureWorking) return
+        if (event?.sensor?.type == Sensor.TYPE_ACCELEROMETER && _isAppActiveNow) {
+            
+            val isValidYAxis = event.values[1] in -2.5..2.5
+            val zAxis = event.values[2]
+
+            if (zAxis < -8.0 && isValidYAxis && !_isScreenDown) {
+                _isScreenDown = true
+                _screenDownTriggerTime = System.currentTimeMillis()
+            } else if (zAxis > 8.0 && _isScreenDown) {
+                val upTime = System.currentTimeMillis()
+                val timeDiff = upTime - _screenDownTriggerTime
+                if (timeDiff <= GESTURE_THRESHOLD) switchSecuredState()
+                _isScreenDown = false
+            }
+        }
+    }
+
+    @SuppressLint("MissingPermission")
+    private fun pushVibration() {
+        when {
+            !_isHasVibratePermission -> return
+            Build.VERSION.SDK_INT >= Build.VERSION_CODES.O -> {
+                val heartbeatPattern = longArrayOf(0, 50, 100, 60)
+                val vibrationEffect = VibrationEffect.createWaveform(heartbeatPattern, -1)
+                _vibrator.vibrate(vibrationEffect)
+            }
+
+            else -> {
+                _vibrator.vibrate(100)
+            }
+        }
+    }
+
+    override fun onAccuracyChanged(sensor: Sensor?, accuracy: Int) {
+
+    }
+
+    override fun resetAllState() {
+        _isSecuredNow = false
+        _isSecureGestureWorking = false
+        _prefs.isTextViewsSecuredNow = _isSecuredNow
+        _prefs.isSecureGestureWorking = _isSecureGestureWorking
+        LocalBroadcastManager.getInstance(_context).sendBroadcast(Intent(BROADCAST_TAG))
+    }
+
+    companion object {
+        private const val GESTURE_THRESHOLD = 1000L
+    }
+}

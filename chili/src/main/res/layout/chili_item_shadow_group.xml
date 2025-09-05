@@ -9,7 +9,7 @@
     android:clipToPadding="false"
     android:clipChildren="false">
 
-    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:clipChildren="false"
@@ -27,6 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
 </FrameLayout>

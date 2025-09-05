@@ -7,7 +7,7 @@
     android:background="?attr/ChiliScreenBackground"
     android:padding="@dimen/padding_16dp">
 
-    <com.design2.chili2.view.input.MaskedInputView
+    <kg.nurtelecom.design.chili2.view.input.MaskedInputView
         android:id="@+id/input_field"
         style="@style/Chili.InputViewStyle.Masked.PhoneMask"
         android:layout_width="match_parent"

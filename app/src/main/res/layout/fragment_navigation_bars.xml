@@ -82,7 +82,7 @@
             android:progress="68"
             app:layout_constraintBottom_toTopOf="@+id/seekBar_Blue" />
 
-        <kg.devcats.chili3.view.common.ChiliBottomNavigationView
+        <kg.nurtelecom.design.chili3.view.common.ChiliBottomNavigationView
             android:id="@+id/cl_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

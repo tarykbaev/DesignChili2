@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingBottom="400dp"
-        tools:context=".MainActivity">
+        tools:context="kg.nurtelecom.design.app.MainActivity">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/cl_input_with_logo"
@@ -32,7 +32,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
-            <com.design2.chili2.view.input.BaseInputView
+            <kg.nurtelecom.design.chili2.view.input.BaseInputView
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_marginHorizontal="@dimen/padding_16dp"
@@ -44,7 +44,7 @@
                 app:verticalInputPadding="@dimen/padding_14dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <com.design2.chili2.view.input.MaskedInputView
+        <kg.nurtelecom.design.chili2.view.input.MaskedInputView
             android:id="@+id/field_123"
             app:message="Simple"
             app:actionButtonText="Сканер"
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.BaseInputView
+        <kg.nurtelecom.design.chili2.view.input.BaseInputView
             android:id="@+id/field_0"
             app:message="Simple"
             android:hint="Hint"
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.BaseInputView
+        <kg.nurtelecom.design.chili2.view.input.BaseInputView
             android:id="@+id/field_start_icon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             app:startIconDrawable="@drawable/chili_ic_search"
             app:startIconSize="@dimen/view_20dp"/>
 
-        <com.design2.chili2.view.input.BaseInputView
+        <kg.nurtelecom.design.chili2.view.input.BaseInputView
             android:id="@+id/field_1"
             android:text="Buttons"
             android:hint="Hint"
@@ -85,7 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.BaseInputView
+        <kg.nurtelecom.design.chili2.view.input.BaseInputView
             android:id="@+id/field_pass"
             android:hint="Password"
             android:gravity="start"
@@ -94,7 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.MaskedInputView
+        <kg.nurtelecom.design.chili2.view.input.MaskedInputView
             android:id="@+id/field_2"
             app:errorMessage="ErrorMesage"
             android:hint="Hint"
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.MaskedInputView
+        <kg.nurtelecom.design.chili2.view.input.MaskedInputView
             android:id="@+id/field_2_mask"
             app:message="mask"
             app:mask="+996 XXX XXX-XXX"
@@ -112,7 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.MultilineInputView
+        <kg.nurtelecom.design.chili2.view.input.MultilineInputView
             android:id="@+id/field_3"
             android:maxLength="130"
             android:hint="Введите комментарий"
@@ -122,34 +122,34 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.otp.OtpInputView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpInputView
             android:id="@+id/otp"
             android:layout_marginVertical="@dimen/padding_32dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <com.design2.chili2.view.input.otp.OtpInputView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpInputView
             android:id="@+id/otp_2"
             app:otpLength="4"
             android:layout_marginVertical="@dimen/padding_32dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <com.design2.chili2.view.input.UneditableInputView
+        <kg.nurtelecom.design.chili2.view.input.UneditableInputView
             android:id="@+id/selection"
             android:hint="Uneditable input filed hint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.UneditableInputView
+        <kg.nurtelecom.design.chili2.view.input.UneditableInputView
             android:id="@+id/uneditable"
             android:text="Uneditable input filed text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.input.BaseInputView
+        <kg.nurtelecom.design.chili2.view.input.BaseInputView
             android:textAllCaps="true"
             android:id="@+id/input_57"
             android:layout_width="match_parent"

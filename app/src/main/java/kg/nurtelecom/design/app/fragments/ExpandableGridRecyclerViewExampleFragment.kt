@@ -1,0 +1,53 @@
+package kg.nurtelecom.design.app.fragments
+
+import android.os.Bundle
+import android.view.View
+import android.widget.Toast
+import kg.nurtelecom.design.app.MainActivity
+import kg.nurtelecom.design.app.base.BaseFragment
+import com.design2.app.databinding.FragmentExpandableGridRecyclerViewExamplesBinding
+import kg.nurtelecom.design.chili2.view.shimmer.startGroupShimmering
+import kg.nurtelecom.design.chili2.view.shimmer.stopGroupShimmering
+import kg.nurtelecom.design.chili3.model.ExpandableGridItem
+import kg.nurtelecom.design.chili3.view.container.ExpandableGridRecyclerView
+
+class ExpandableGridRecyclerViewExampleFragment : BaseFragment<FragmentExpandableGridRecyclerViewExamplesBinding>(),
+    ExpandableGridRecyclerView.Listener {
+
+    private var items = List(8) {
+        ExpandableGridItem(
+            null,
+            "Бонусы ${it + 1}",
+            "https://minio.o.kg/media-service/DiscountCard/narodny.png",
+            "https://somedeeplink ${it + 1}",
+            "someTag"
+        )
+    }
+
+    override fun inflateViewBinging(): FragmentExpandableGridRecyclerViewExamplesBinding {
+        return FragmentExpandableGridRecyclerViewExamplesBinding.inflate(layoutInflater)
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        (activity as MainActivity).setUpHomeEnabled(true)
+        vb.rvItems.setListener(this)
+    }
+
+    override fun startShimmering() {
+        super.startShimmering()
+        vb.root.startGroupShimmering()
+    }
+
+    override fun stopShimmering() {
+        super.stopShimmering()
+        vb.root.stopGroupShimmering()
+        vb.rvItems.setItems(items)
+    }
+
+    override fun onExpandableGridItemClick(item: ExpandableGridItem) {
+        Toast.makeText(requireContext(), item.deeplink, Toast.LENGTH_SHORT).show()
+
+    }
+
+}

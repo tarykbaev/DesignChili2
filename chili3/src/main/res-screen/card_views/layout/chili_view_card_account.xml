@@ -164,7 +164,7 @@
 
     </com.facebook.shimmer.ShimmerFrameLayout>
 
-    <com.design2.chili2.view.buttons.IconedButton
+    <kg.nurtelecom.design.chili2.view.buttons.IconedButton
         android:id="@+id/ib_action_btn"
         style="?ChiliAccountCardViewActionButtonStyle"
         android:layout_width="?ChiliAccountCardViewActionButtonWidth"

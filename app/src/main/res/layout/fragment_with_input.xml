@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Тайтл боттомщита" />
 
-    <com.design2.chili2.view.input.BaseInputView
+    <kg.nurtelecom.design.chili2.view.input.BaseInputView
         android:id="@+id/input_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

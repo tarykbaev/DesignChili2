@@ -18,9 +18,9 @@
         android:orientation="vertical"
         android:paddingHorizontal="@dimen/padding_16dp"
         android:paddingBottom="220dp"
-        tools:context=".MainActivity">
+        tools:context="kg.nurtelecom.design.app.MainActivity">
 
-        <com.design2.chili2.view.common.TitledDividerView
+        <kg.nurtelecom.design.chili2.view.common.TitledDividerView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:actionText="Action"
@@ -31,7 +31,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <kg.devcats.chili3.view.cells.CardCellView
+            <kg.nurtelecom.design.chili3.view.cells.CardCellView
                 android:id="@+id/cardcell2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -42,7 +42,7 @@
                 app:cardCellIcon="@drawable/chili_ic_add_card_cell"
                 />
 
-            <com.design2.chili2.view.container.HighlighterFrame
+            <kg.nurtelecom.design.chili2.view.container.HighlighterFrame
                 android:id="@+id/hf2"
                 app:gradientStartColor="#DEE4FA"
                 app:gradientEndColor="#FF2A99"
@@ -54,7 +54,7 @@
         </FrameLayout>
 
 
-        <kg.devcats.chili3.view.cells.CardCellView
+        <kg.nurtelecom.design.chili3.view.cells.CardCellView
             android:id="@+id/cardcell3"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_width="match_parent"
@@ -65,19 +65,19 @@
             app:cardCellIsBlocked="true"
             app:cardCellIsUniqueStatused="false"/>
 
-        <kg.devcats.chili3.view.cells.CardCellView
+        <kg.nurtelecom.design.chili3.view.cells.CardCellView
             android:id="@+id/cardcell4"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <kg.devcats.chili3.view.cells.CardCellView
+        <kg.nurtelecom.design.chili3.view.cells.CardCellView
             android:id="@+id/cardcell40"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
-        <kg.devcats.chili3.view.cells.CardCellView
+        <kg.nurtelecom.design.chili3.view.cells.CardCellView
             android:id="@+id/cardcell5"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_width="match_parent"
@@ -86,7 +86,7 @@
             app:cardCellTitle="Заголовок"
             app:cardCellValue="500 000,00 с"/>
 
-        <kg.devcats.chili3.view.cells.CardCellView
+        <kg.nurtelecom.design.chili3.view.cells.CardCellView
             android:id="@+id/cardcell7"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_width="match_parent"
@@ -96,7 +96,7 @@
             app:cardCellValue="500 000,00 с"
             app:cardCellIsUniqueStatused="true"/>
 
-        <kg.devcats.chili3.view.cells.CardCellView
+        <kg.nurtelecom.design.chili3.view.cells.CardCellView
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -105,35 +105,35 @@
             app:cardCellSubtitle="Подзаголовок Подзаголовок Подзаголовок Подзаголовок Подзаголовок"
             app:cardCellIsUniqueStatused="true"/>
 
-        <com.design2.chili2.view.common.TitledDividerView
+        <kg.nurtelecom.design.chili2.view.common.TitledDividerView
             android:layout_marginTop="@dimen/padding_10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:title="BaseCellView with icon" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:id="@+id/shadow_ex"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:id="@+id/cell_first"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:roundedCornerMode="top"
                 app:isDividerVisible="true"
                 app:title="Заголовок" />
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:id="@+id/shadow_ex2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:id="@+id/cell_first2"
                 android:layout_width="match_parent"
                 app:roundedCornerMode="bottom"
@@ -141,28 +141,28 @@
                 app:isDividerVisible="false"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:id="@+id/first_cell"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:id="@+id/second_cell"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:roundedCornerMode="middle"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:id="@+id/third_cell"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -170,44 +170,44 @@
                 app:roundedCornerMode="bottom"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:roundedCornerMode="top"
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:roundedCornerMode="middle"
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -215,7 +215,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -223,13 +223,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="BaseCellView iconSize = SMALL (32dp)" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:id="@+id/cellView"
                 android:layout_height="wrap_content"
@@ -238,29 +238,29 @@
                 app:isDividerVisible="false"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
                 app:roundedCornerMode="middle"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -268,15 +268,15 @@
                 app:roundedCornerMode="bottom"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -284,15 +284,15 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -300,7 +300,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -308,7 +308,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -317,7 +317,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -326,13 +326,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="BaseCellView iconSize = MEDIUM (46dp)" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -340,15 +340,15 @@
                 app:isDividerVisible="false"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -356,7 +356,7 @@
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -364,7 +364,7 @@
                 app:roundedCornerMode="middle"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -373,15 +373,15 @@
                 app:roundedCornerMode="bottom"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -390,15 +390,15 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -407,7 +407,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -416,7 +416,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -426,7 +426,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -434,13 +434,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="BaseCellView iconSize = LARGE (48dp)" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -449,15 +449,15 @@
                 app:isDividerVisible="false"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -465,7 +465,7 @@
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -473,7 +473,7 @@
                 app:roundedCornerMode="middle"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -482,15 +482,15 @@
                 app:roundedCornerMode="bottom"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -499,15 +499,15 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -516,7 +516,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -525,7 +525,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -535,7 +535,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -543,13 +543,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="BaseCellView icon custom size 72 dp" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -557,15 +557,15 @@
                 app:isDividerVisible="false"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/chili3_ic_success"
@@ -574,7 +574,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -602,13 +602,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="BaseCellView max char" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -617,7 +617,7 @@
                 app:subtitle="Заголовок максимальное кол-во строк 2, строк строк строк строк строк строк строк строк строк строк строк строк строк строк строк"
                 app:title="Заголовок максимальное кол-во строк 2, строк строк строк строк строк строк строк строк строк строк строк строк строк строк строк строк" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -631,12 +631,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="ToggleCellView разные состояния" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ToggleCellView
+            <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
                 android:id="@+id/test_ToggleCellView"
                 app:endIcon="@drawable/ic_info"
                 android:layout_width="match_parent"
@@ -645,15 +645,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ToggleCellView
+            <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
                 app:endIcon="@drawable/ic_cat"
                 app:endIconTint="@color/red_1"
                 android:layout_width="match_parent"
@@ -663,15 +663,15 @@
                 app:switch_text="On/Off"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ToggleCellView
+            <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -680,15 +680,15 @@
                 app:switch_textOn="On"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ToggleCellView
+            <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -697,15 +697,15 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ToggleCellView
+            <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/chili3_ic_success"
@@ -714,7 +714,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.ToggleCellView
+            <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/chili3_ic_success"
@@ -724,9 +724,9 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.cells.ToggleCellView
+        <kg.nurtelecom.design.chili2.view.cells.ToggleCellView
             android:id="@+id/new_toggle_cell_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -745,12 +745,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="AdditionalTextCellView разные состояния" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:id="@+id/test_AdditionalTextCellView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -759,15 +759,15 @@
                 app:roundedCornerMode="single"
                 app:title="Длинный текст" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:id="@+id/atcv_with_long_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -777,13 +777,13 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout><com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout><kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:additionalText="12121212112"
@@ -792,15 +792,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_darkmode_false_"
@@ -810,15 +810,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:additionalText="Value"
@@ -826,7 +826,7 @@
                 app:roundedCornerMode="top"
                 app:title="simple" />
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:additionalText="Value"
@@ -834,7 +834,7 @@
                 app:roundedCornerMode="middle"
                 app:title="simple" />
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:additionalText="Value"
@@ -843,15 +843,15 @@
                 app:roundedCornerMode="bottom"
                 app:title="simple" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-        <com.design2.chili2.view.cells.AdditionalTextCellView
+        <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:isDividerVisible="false"
@@ -863,7 +863,7 @@
             app:roundedCornerMode="single"
             app:title="simple" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -871,12 +871,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="AdditionalIconCellView" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             style="@style/ShadowLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <kg.devcats.chili3.view.cells.AdditionalIconCellView
+            <kg.nurtelecom.design.chili3.view.cells.AdditionalIconCellView
                 android:id="@+id/aicv_halyk_no_commission"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -890,7 +890,7 @@
                 app:tag_text="1%"
                 app:title="Halyk Bank по номеру\nтелефона" />
 
-            <kg.devcats.chili3.view.cells.AdditionalIconCellView
+            <kg.nurtelecom.design.chili3.view.cells.AdditionalIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -902,7 +902,7 @@
                 app:tag_text="10%"
                 app:title="Halyk Bank пополнение карты" />
 
-            <kg.devcats.chili3.view.cells.AdditionalIconCellView
+            <kg.nurtelecom.design.chili3.view.cells.AdditionalIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -912,7 +912,7 @@
                 app:tag_icon="@drawable/ic_bonus_new"
                 app:tag_text="100%"
                 app:title="Halyk Bank пополнение счета" />
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -920,12 +920,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="AdditionalTextCellViewWithIcon разные состояния" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextWithIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextWithIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -934,15 +934,15 @@
                 app:additionalText="Additional text"
                 app:additionalIcon="@drawable/ic_info"/>
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.AdditionalTextWithIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextWithIconCellView
                 android:id="@+id/atcv_with_icon_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -953,7 +953,7 @@
                 app:additionalText="Additional text"
                 app:additionalIcon="@drawable/ic_info"/>
 
-            <com.design2.chili2.view.cells.AdditionalTextCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:additionalText="Value"
@@ -961,7 +961,7 @@
                 app:roundedCornerMode="middle"
                 app:title="simple" />
 
-            <com.design2.chili2.view.cells.AdditionalTextWithIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.AdditionalTextWithIconCellView
                 android:id="@+id/atcv_with_icon_2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -974,7 +974,7 @@
                 app:additionalText="Additional text"
                 app:additionalIcon="@drawable/chili_ic_copy"/>
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -982,12 +982,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="EndIconCellView разные состояния" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:endIcon="@drawable/chili3_ic_success"
@@ -995,15 +995,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:endIcon="@drawable/chili3_ic_success"
@@ -1012,15 +1012,15 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:endIcon="@drawable/chili3_ic_success"
@@ -1029,15 +1029,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:endIcon="@drawable/chili3_ic_success"
@@ -1046,15 +1046,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/chili3_ic_success"
@@ -1063,15 +1063,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:endIcon="@drawable/ic_squircle_phone"
@@ -1079,7 +1079,7 @@
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.EndIconCellView
+            <kg.nurtelecom.design.chili2.view.cells.EndIconCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:endIcon="@drawable/chili3_ic_success"
@@ -1089,7 +1089,7 @@
                 app:roundedCornerMode="bottom"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1097,27 +1097,27 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="CheckBoxCellView разные состояния" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.CheckBoxCellView
+            <kg.nurtelecom.design.chili2.view.cells.CheckBoxCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.CheckBoxCellView
+            <kg.nurtelecom.design.chili2.view.cells.CheckBoxCellView
                 android:id="@+id/checkbox_with_end_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1125,15 +1125,15 @@
                 app:roundedCornerMode="single"
                 app:title="Чекбокс"/>
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.CheckBoxCellView
+            <kg.nurtelecom.design.chili2.view.cells.CheckBoxCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isCheckBoxChecked="true"
@@ -1142,15 +1142,15 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.CheckBoxCellView
+            <kg.nurtelecom.design.chili2.view.cells.CheckBoxCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/chili3_ic_success"
@@ -1159,7 +1159,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.cells.CheckBoxCellView
+            <kg.nurtelecom.design.chili2.view.cells.CheckBoxCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -1169,7 +1169,7 @@
                 app:subtitle="Подзаголовок"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1177,12 +1177,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="ActionCellView разные состояния" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ActionCellView
+            <kg.nurtelecom.design.chili2.view.cells.ActionCellView
                 android:id="@+id/action_cell"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1191,15 +1191,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ActionCellView
+            <kg.nurtelecom.design.chili2.view.cells.ActionCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:actionText="Action no chevron"
@@ -1208,15 +1208,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ActionCellView
+            <kg.nurtelecom.design.chili2.view.cells.ActionCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_darkmode_false_"
@@ -1226,15 +1226,15 @@
                 app:roundedCornerMode="single"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ActionCellView
+            <kg.nurtelecom.design.chili2.view.cells.ActionCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:actionText="Value"
@@ -1242,7 +1242,7 @@
                 app:roundedCornerMode="top"
                 app:title="simple" />
 
-            <com.design2.chili2.view.cells.ActionCellView
+            <kg.nurtelecom.design.chili2.view.cells.ActionCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:actionText="Value"
@@ -1250,7 +1250,7 @@
                 app:roundedCornerMode="middle"
                 app:title="simple" />
 
-            <com.design2.chili2.view.cells.ActionCellView
+            <kg.nurtelecom.design.chili2.view.cells.ActionCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:actionText="Value"
@@ -1260,7 +1260,7 @@
                 app:roundedCornerMode="bottom"
                 app:title="simple" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -1268,27 +1268,27 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="InfoCellView" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.InfoCellView
+            <kg.nurtelecom.design.chili2.view.cells.InfoCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:roundedCornerMode="single"
                 app:subtitle="subtitle"
                 app:title="Title" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.InfoCellView
+            <kg.nurtelecom.design.chili2.view.cells.InfoCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="true"
@@ -1296,7 +1296,7 @@
                 app:subtitle="Title"
                 app:title="Not active till: 20.12.2012" />
 
-            <com.design2.chili2.view.cells.InfoCellView
+            <kg.nurtelecom.design.chili2.view.cells.InfoCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="true"
@@ -1304,7 +1304,7 @@
                 app:subtitle="subtitle"
                 app:title="Title" />
 
-            <com.design2.chili2.view.cells.InfoCellView
+            <kg.nurtelecom.design.chili2.view.cells.InfoCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -1312,7 +1312,7 @@
                 app:subtitle="subtitle"
                 app:title="Title" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -1320,61 +1320,61 @@
             android:layout_marginTop="@dimen/padding_16dp"
             android:text="ExpandableCellView" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ExpandableCellView
+            <kg.nurtelecom.design.chili2.view.cells.ExpandableCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:description="В данный момент оплата через O!Деньги находится в стадии разработки и будет доступна в ближайших обновлениях приложения."
                 app:title="Могу ли я оплатить товар через О!Деньги" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ExpandableCellView
+            <kg.nurtelecom.design.chili2.view.cells.ExpandableCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:description="В данный момент оплата через O!Деньги находится в стадии разработки и будет доступна в ближайших обновлениях приложения."
                 app:title="Могу ли я оплатить товар через О!Деньги" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ExpandableCellView
+            <kg.nurtelecom.design.chili2.view.cells.ExpandableCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:description="В данный момент оплата через O!Деньги находится в стадии разработки и будет доступна в ближайших обновлениях приложения."
                 app:title="Могу ли я оплатить товар через О!Деньги" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ExpandableCellView
+            <kg.nurtelecom.design.chili2.view.cells.ExpandableCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:description="В данный момент оплата через O!Деньги находится в стадии разработки и будет доступна в ближайших обновлениях приложения."
                 app:title="Могу ли я оплатить товар через О!Деньги" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -1382,7 +1382,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             android:text="ProgressCellView" />
 
-        <com.design2.chili2.view.cells.ProgressCellView
+        <kg.nurtelecom.design.chili2.view.cells.ProgressCellView
             android:id="@+id/progress"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1406,7 +1406,7 @@
             android:layout_marginTop="@dimen/padding_8dp"
             android:text="set progress to up 0" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
@@ -1414,9 +1414,9 @@
 
 
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.cells.ProgressCellView
+        <kg.nurtelecom.design.chili2.view.cells.ProgressCellView
             android:id="@+id/progress2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1427,13 +1427,13 @@
             app:progressPercent="50"
             app:title="98 000,00 с из 100 000 с" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ProgressCellView
+            <kg.nurtelecom.design.chili2.view.cells.ProgressCellView
                 android:id="@+id/progress3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1443,15 +1443,15 @@
                 app:progressPercent="80"
                 app:title="98 000,00 с из 100 000 с" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.ProgressCellView
+            <kg.nurtelecom.design.chili2.view.cells.ProgressCellView
                 android:id="@+id/progress4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1462,7 +1462,7 @@
                 app:progressPercent="50"
                 app:title="Animated progress" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <Button
             android:id="@+id/btn_p4"
@@ -1485,13 +1485,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="Additional double buttions" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -1500,14 +1500,14 @@
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.common.AdditionalDoubleButtonsView
+            <kg.nurtelecom.design.chili2.view.common.AdditionalDoubleButtonsView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/chili_cell_rounded_bottom_background"
                 app:firstButtonText="ОТМЕНИТЬ"
                 app:secondButtonText="ОПЛАТИТЬ" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1515,13 +1515,13 @@
             android:layout_marginTop="@dimen/padding_32dp"
             android:text="Additional text view" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -1530,22 +1530,22 @@
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.common.AdditionalTextView
+            <kg.nurtelecom.design.chili2.view.common.AdditionalTextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/chili_cell_rounded_bottom_background"
                 android:text="Поле ввода комментария вмещает в себя такое же количество символов, сколько поле поле ввода комментария - 130 символов"
                 android:textAppearance="@style/Chili.H8.Secondary" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.BaseCellView
+            <kg.nurtelecom.design.chili2.view.cells.BaseCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:icon="@drawable/ic_squircle_phone"
@@ -1554,7 +1554,7 @@
                 app:roundedCornerMode="top"
                 app:title="Заголовок" />
 
-            <com.design2.chili2.view.common.AdditionalTextView
+            <kg.nurtelecom.design.chili2.view.common.AdditionalTextView
                 android:id="@+id/test_additional"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1562,7 +1562,7 @@
                 android:text="Test now в себя такое же количество символов, сколько поле поле ввода комментария - 130 символов"
                 android:textAppearance="@style/Chili.H8.Error" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1570,12 +1570,12 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="DetailCellView" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:id="@+id/dcv_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1588,59 +1588,59 @@
                 app:title="Заголовок Заголовок ЗаголовокЗаголовокЗаголовок Заголовок Заголовок"
                 app:value="- 140" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:icon="@drawable/chili3_ic_success"
                 app:subtitle="+ 996 700 500 430"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:icon="@drawable/chili3_ic_success"
                 app:status="В обработке"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:icon="@drawable/chili3_ic_success"
                 app:title="Заголовок" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:icon="@drawable/chili3_ic_success"
@@ -1648,30 +1648,30 @@
                 app:status="status"
                 app:title="Only status" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:icon="@drawable/chili3_ic_success"
                 app:title="Заголовок"
                 app:subtitle="Пополнение электронного кошелька пользователя"/>
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.DetailCellView
+            <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:title="Detail cell view без bg для text"
@@ -1681,7 +1681,7 @@
                 app:additionalInfoTextPadding="0dp"
                 app:additionalInfoTextAppearance="@style/Chili.H12.Value"/>
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1689,13 +1689,13 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="StatusMarkerCellView" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.StatusMarkerCellView
+            <kg.nurtelecom.design.chili2.view.cells.StatusMarkerCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -1706,15 +1706,15 @@
                 app:title="На связь и кошелек О!Деньги"
                 app:value="323,10 c" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.StatusMarkerCellView
+            <kg.nurtelecom.design.chili2.view.cells.StatusMarkerCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -1726,16 +1726,16 @@
                 app:title="На связь и кошелек О!Деньги"
                 app:value="323,10 c" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.StatusMarkerCellView
+            <kg.nurtelecom.design.chili2.view.cells.StatusMarkerCellView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:isDividerVisible="false"
@@ -1743,7 +1743,7 @@
                 app:title="На связь и кошелек О!Деньги"
                 app:value="323,10 c" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="wrap_content"
@@ -1751,34 +1751,34 @@
             android:layout_margin="@dimen/padding_16dp"
             android:text="MultiIconedCellView" />
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.MultiIconedTitleCellView
+            <kg.nurtelecom.design.chili2.view.cells.MultiIconedTitleCellView
                 app:title="Multiiconed Cell View for MyQr"
                 android:id="@+id/multiiconed_cell_view"
                 app:iconsSize="@dimen/view_30dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_8dp"
             style="@style/ShadowLayoutStyle">
 
-            <com.design2.chili2.view.cells.MultiIconedTitleCellView
+            <kg.nurtelecom.design.chili2.view.cells.MultiIconedTitleCellView
                 app:title="Regular"
                 android:id="@+id/multiiconed_cell_view2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
     </LinearLayout>
 

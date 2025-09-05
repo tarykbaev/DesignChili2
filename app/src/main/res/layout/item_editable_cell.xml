@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.design2.chili2.view.container.shadow_layout.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/ShadowLayoutStyle"
@@ -9,7 +9,7 @@
     android:clipToPadding="false"
     tools:ignore="MissingDefaultResource">
 
-    <com.design2.chili2.view.cells.EditableCellView
+    <kg.nurtelecom.design.chili2.view.cells.EditableCellView
         android:id="@+id/editable_cell_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -22,4 +22,4 @@
         app:subtitle="Подзаголовок"
         app:title="Заголовок" />
 
-</com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+</kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>

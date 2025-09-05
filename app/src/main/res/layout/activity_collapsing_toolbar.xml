@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_height="match_parent">
 
-    <kg.devcats.chili3.view.toolbar.CollapsingChiliToolbar
+    <kg.nurtelecom.design.chili3.view.toolbar.CollapsingChiliToolbar
         android:id="@+id/collapsingToolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

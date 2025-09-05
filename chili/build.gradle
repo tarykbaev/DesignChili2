@@ -6,7 +6,7 @@ plugins {
 
 android {
     compileSdk 35
-    namespace 'com.design2.chili2'
+    namespace 'kg.nurtelecom.design.chili2'
 
     defaultConfig {
         minSdk 24
@@ -71,7 +71,7 @@ afterEvaluate {
         publications {
             release(MavenPublication) {
                 from components.release
-                groupId = "com.design"
+                groupId = "kg.nurtelecom.design"
                 artifactId = "chili"
                 version = "2.0.0"
             }

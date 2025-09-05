@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.design2.chili2.view.image.SquircleView
+            <kg.nurtelecom.design.chili2.view.image.SquircleView
                 android:id="@+id/toolbar_icon"
                 android:layout_width="@dimen/view_40dp"
                 android:layout_height="@dimen/view_40dp"

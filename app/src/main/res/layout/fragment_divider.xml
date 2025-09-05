@@ -18,9 +18,9 @@
         android:orientation="vertical"
         android:paddingHorizontal="@dimen/padding_16dp"
         android:paddingBottom="220dp"
-        tools:context=".MainActivity">
+        tools:context="kg.nurtelecom.design.app.MainActivity">
 
-        <kg.devcats.chili3.view.divider.DividerView
+        <kg.nurtelecom.design.chili3.view.divider.DividerView
             android:id="@+id/divider1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -29,7 +29,7 @@
             app:dividerSubtitle="Подзаголовок"
             app:dividerTitle="Заголовок" />
 
-        <kg.devcats.chili3.view.divider.DividerView
+        <kg.nurtelecom.design.chili3.view.divider.DividerView
             android:id="@+id/divider2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,7 +37,7 @@
             app:dividerActionText="Кнопка"
             app:dividerTitle="Заголовок" />
 
-        <kg.devcats.chili3.view.divider.DividerView
+        <kg.nurtelecom.design.chili3.view.divider.DividerView
             android:id="@+id/divider3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
             app:dividerIsNotificationVisible="true"
             app:dividerTitle="Заголовок" />
 
-        <kg.devcats.chili3.view.divider.DividerView
+        <kg.nurtelecom.design.chili3.view.divider.DividerView
             android:id="@+id/divider4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -56,7 +56,7 @@
             app:dividerSubtitle="Подзаголовок"
             app:dividerTitle="Заголовок" />
 
-        <kg.devcats.chili3.view.divider.DividerView
+        <kg.nurtelecom.design.chili3.view.divider.DividerView
             android:id="@+id/divider5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             app:dividerSubtitle="Подзаголовок"
             app:dividerTitle="Заголовок" />
 
-        <kg.devcats.chili3.view.divider.DividerView
+        <kg.nurtelecom.design.chili3.view.divider.DividerView
             android:id="@+id/divider6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.design2.chili2.view.common.ChiliSwipeToRefreshView xmlns:android="http://schemas.android.com/apk/res/android"
+<kg.nurtelecom.design.chili2.view.common.ChiliSwipeToRefreshView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/swipe_refresh"
@@ -17,15 +17,15 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:paddingBottom="124dp"
-            tools:context=".MainActivity">
+            tools:context="kg.nurtelecom.design.app.MainActivity">
 
-            <kg.devcats.chili3.view.common.chips.ChiliChipsGroup
+            <kg.nurtelecom.design.chili3.view.common.chips.ChiliChipsGroup
                 android:id="@+id/chips"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:title="Дата первого платежа"/>
 
-            <kg.devcats.chili3.view.common.ChiliSliderView
+            <kg.nurtelecom.design.chili3.view.common.ChiliSliderView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:title="Сумма кредита"
@@ -210,7 +210,7 @@
                 android:layout_marginStart="@dimen/padding_16dp"
                 android:layout_marginTop="@dimen/padding_8dp"/>
 
-            <com.design2.chili2.view.common.AgreementView
+            <kg.nurtelecom.design.chili2.view.common.AgreementView
                 android:id="@+id/av_1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -218,7 +218,7 @@
                 android:layout_marginHorizontal="@dimen/padding_12dp"
                 app:title="@string/agree_terms" />
 
-            <com.design2.chili2.view.common.AgreementView
+            <kg.nurtelecom.design.chili2.view.common.AgreementView
                 android:id="@+id/av_2"
                 android:layout_marginTop="@dimen/padding_8dp"
                 android:layout_width="match_parent"
@@ -227,7 +227,7 @@
                 app:title="@string/agree_terms"
                 app:isEditable="false" />
 
-            <com.design2.chili2.view.common.AgreementView
+            <kg.nurtelecom.design.chili2.view.common.AgreementView
                 android:id="@+id/av_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -265,7 +265,7 @@
                 android:layout_marginTop="@dimen/padding_16dp"
                 android:background="@color/gray_1" />
 
-            <com.design2.chili2.view.common.TitledDividerView
+            <kg.nurtelecom.design.chili2.view.common.TitledDividerView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/padding_16dp"
@@ -322,7 +322,7 @@
                 android:textAppearance="@style/Chili.H7.Secondary" />
 
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:actionText="Смотреть"
@@ -334,9 +334,9 @@
                     android:layout_height="wrap_content"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_16dp"
@@ -346,10 +346,10 @@
                 app:subtitle="Добавьте избранное для быстрых \nпереводов и платежей"
                 app:title="Избранное">
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:id="@+id/ec"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -358,7 +358,7 @@
                 app:actionTextEnabled="false"
                 app:title="Бонусные карты">
 
-                <com.design2.chili2.view.cells.DetailCellView
+                <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/view_16dp"
@@ -369,7 +369,7 @@
                     app:title="Заголовок"
                     app:value="- 140" />
 
-                <com.design2.chili2.view.cells.DetailCellView
+                <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/view_16dp"
@@ -380,7 +380,7 @@
                     app:title="Заголовок"
                     app:value="- 140" />
 
-                <com.design2.chili2.view.cells.DetailCellView
+                <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/view_16dp"
@@ -392,9 +392,9 @@
                     app:title="Заголовок"
                     app:value="- 140" />
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_16dp"
@@ -405,9 +405,9 @@
                 app:subtitle="Добавьте избранное для быстрых \nпереводов и платежей"
                 app:title="Избранное">
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/padding_16dp"
@@ -416,7 +416,7 @@
                 app:endIconSize="small"
                 app:title="Избранное">
 
-                <com.design2.chili2.view.cells.DetailCellView
+                <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/view_16dp"
@@ -427,7 +427,7 @@
                     app:title="Заголовок"
                     app:value="- 140" />
 
-                <com.design2.chili2.view.cells.DetailCellView
+                <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/view_16dp"
@@ -438,7 +438,7 @@
                     app:title="Заголовок"
                     app:value="- 140" />
 
-                <com.design2.chili2.view.cells.DetailCellView
+                <kg.nurtelecom.design.chili2.view.cells.DetailCellView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/view_16dp"
@@ -450,10 +450,10 @@
                     app:title="Заголовок"
                     app:value="- 140" />
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
 
         </LinearLayout>
 
     </ScrollView>
-</com.design2.chili2.view.common.ChiliSwipeToRefreshView>
+</kg.nurtelecom.design.chili2.view.common.ChiliSwipeToRefreshView>

@@ -1,4 +1,4 @@
-package com.design2.chili2
+package kg.nurtelecom.design.chili2
 
 import org.junit.Test
 

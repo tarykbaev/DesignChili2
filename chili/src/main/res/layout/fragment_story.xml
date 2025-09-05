@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:background="@android:color/transparent">
 
-    <com.design2.chili2.view.stories.StoryView
+    <kg.nurtelecom.design.chili2.view.stories.StoryView
         android:id="@+id/story_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>

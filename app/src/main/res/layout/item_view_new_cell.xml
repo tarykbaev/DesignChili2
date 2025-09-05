@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.design2.chili2.view.cells.BaseCellView
+    <kg.nurtelecom.design.chili2.view.cells.BaseCellView
         android:id="@+id/item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

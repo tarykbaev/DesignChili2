@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.design2.chili2.view.container.shadow_layout.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/ShadowLayoutStyle"
@@ -8,7 +8,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
 
-    <com.design2.chili2.view.card.IconHolderCardItemView
+    <kg.nurtelecom.design.chili2.view.card.IconHolderCardItemView
         android:id="@+id/card"
         android:layout_width="140dp"
         android:layout_height="wrap_content"
@@ -19,4 +19,4 @@
         app:layout_constraintTop_toTopOf="parent"
         app:title="Добавить новое"/>
 
-</com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+</kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>

@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <com.design2.chili2.view.input.SelectionEditText
+    <kg.nurtelecom.design.chili2.view.input.SelectionEditText
         android:id="@+id/et_input"
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -26,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
 
-        <com.design2.chili2.view.input.otp.OtpItemView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpItemView
             android:id="@+id/otp_item_1"
             android:layout_width="@dimen/view_44dp"
             android:layout_height="wrap_content"
@@ -38,7 +38,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toStartOf="@id/otp_item_2"/>
 
-        <com.design2.chili2.view.input.otp.OtpItemView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpItemView
             android:id="@+id/otp_item_2"
             android:layout_width="@dimen/view_44dp"
             android:layout_height="wrap_content"
@@ -50,7 +50,7 @@
             app:layout_constraintEnd_toStartOf="@id/otp_item_3"
             app:layout_constraintHorizontal_chainStyle="spread_inside"/>
 
-        <com.design2.chili2.view.input.otp.OtpItemView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpItemView
             android:id="@+id/otp_item_3"
             android:layout_width="@dimen/view_44dp"
             android:layout_height="wrap_content"
@@ -62,7 +62,7 @@
             app:layout_constraintEnd_toStartOf="@id/otp_item_4"
             app:layout_constraintHorizontal_chainStyle="spread_inside"/>
 
-        <com.design2.chili2.view.input.otp.OtpItemView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpItemView
             android:id="@+id/otp_item_4"
             android:layout_width="@dimen/view_44dp"
             android:layout_height="wrap_content"
@@ -74,7 +74,7 @@
             app:layout_constraintEnd_toStartOf="@id/otp_item_5"
             app:layout_constraintHorizontal_chainStyle="spread_inside"/>
 
-        <com.design2.chili2.view.input.otp.OtpItemView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpItemView
             android:id="@+id/otp_item_5"
             android:layout_width="@dimen/view_44dp"
             android:layout_height="wrap_content"
@@ -86,7 +86,7 @@
             app:layout_constraintEnd_toStartOf="@id/otp_item_6"
             app:layout_constraintHorizontal_chainStyle="spread_inside"/>
 
-        <com.design2.chili2.view.input.otp.OtpItemView
+        <kg.nurtelecom.design.chili2.view.input.otp.OtpItemView
             android:id="@+id/otp_item_6"
             android:layout_width="@dimen/view_44dp"
             android:layout_height="wrap_content"

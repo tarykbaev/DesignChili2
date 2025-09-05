@@ -12,9 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context=".MainActivity">
+        tools:context="kg.nurtelecom.design.app.MainActivity">
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,14 +32,14 @@
             android:layout_marginHorizontal="@dimen/padding_16dp"
             />
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             app:title="Default toolbar" />
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -48,7 +48,7 @@
             app:title="Custom navigation icon toolbar" />
 
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,7 +57,7 @@
             app:title="Additional text" />
 
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             app:toolbarEndIcon="@drawable/ic_cat"
             app:title="End icon" />
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,21 +76,21 @@
             app:navigationIcon="@null"
             app:title="+996 700 123 456" />
 
-        <com.design2.chili2.view.navigation_components.ChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.ChiliToolbar
             android:id="@+id/toolbar3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             app:title="Menu toolbar" />
 
-        <com.design2.chili2.view.navigation_components.StartIconChiliToolbar
+        <kg.nurtelecom.design.chili2.view.navigation_components.StartIconChiliToolbar
             android:id="@+id/toolbar8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             app:title="Start icon toolbar \nStart icon toolbar" />
 
-        <kg.devcats.chili3.view.toolbar.TailedToolbarView
+        <kg.nurtelecom.design.chili3.view.toolbar.TailedToolbarView
             app:background="@android:color/transparent"
             app:navigationIcon="@drawable/chili_ic_back"
             app:title="TailedToolbarView"
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             />
 
-        <kg.devcats.chili3.view.toolbar.ToolbarWithBonusTag
+        <kg.nurtelecom.design.chili3.view.toolbar.ToolbarWithBonusTag
             android:id="@+id/tailedToolbar"
             app:background="@android:color/transparent"
             android:layout_width="match_parent"
@@ -108,7 +108,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             app:title="ToolbarWithBonusTag" />
 
-        <kg.devcats.chili3.view.toolbar.ToolbarWithBonusTag
+        <kg.nurtelecom.design.chili3.view.toolbar.ToolbarWithBonusTag
             android:id="@+id/tailedToolbar2"
             app:background="@android:color/transparent"
             android:layout_width="match_parent"
@@ -117,7 +117,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             app:title="ToolbarWithBonusTag" />
 
-        <kg.devcats.chili3.view.navigation_components.CircleStartIconChiliToolbar
+        <kg.nurtelecom.design.chili3.view.navigation_components.CircleStartIconChiliToolbar
             android:id="@+id/toolbar9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

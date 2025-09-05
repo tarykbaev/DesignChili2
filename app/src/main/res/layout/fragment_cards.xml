@@ -16,7 +16,7 @@
         android:clipToPadding="false"
         android:orientation="vertical"
         android:paddingBottom="160dp"
-        tools:context=".MainActivity">
+        tools:context="kg.nurtelecom.design.app.MainActivity">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_loading_shimmers"
@@ -41,7 +41,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             android:text="Account card exapmles" />
 
-        <kg.devcats.chili3.view.card.ProductBannerCardView
+        <kg.nurtelecom.design.chili3.view.card.ProductBannerCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/padding_16dp"
@@ -61,7 +61,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             android:text="ExpandableGridRecyclerView example" />
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ecv_discount_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,9 +84,9 @@
                 tools:itemCount="3"
                 tools:listitem="@layout/item_discount_card" />
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ec_accent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -96,14 +96,14 @@
             app:isNeedToSaveExpandedState="true"
             app:title="AccentCardView">
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_16dp"
                 android:layout_marginTop="@dimen/padding_12dp">
 
-                <com.design2.chili2.view.card.AccentCardView
+                <kg.nurtelecom.design.chili2.view.card.AccentCardView
                     android:id="@+id/accent"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -113,16 +113,16 @@
                     app:subtitle="Для удобной оплаты \nбез ввода реквизитов"
                     app:title="Сканер штрихкодов и QR" />
 
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_16dp"
                 android:layout_marginTop="@dimen/padding_12dp">
 
-                <com.design2.chili2.view.card.AccentCardView
+                <kg.nurtelecom.design.chili2.view.card.AccentCardView
                     android:id="@+id/accent2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -133,16 +133,16 @@
                     app:titleStartIcon="@drawable/icon_k" />
 
 
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_16dp"
                 android:layout_marginVertical="@dimen/padding_12dp">
 
-                <com.design2.chili2.view.card.AccentCardView
+                <kg.nurtelecom.design.chili2.view.card.AccentCardView
                     android:id="@+id/accent3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -151,9 +151,9 @@
                     app:title="Цифровая карта" />
 
 
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:id="@+id/ec_market_cards"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -173,7 +173,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <kg.devcats.chili3.view.card.MarketCategoryCardView
+                        <kg.nurtelecom.design.chili3.view.card.MarketCategoryCardView
                             android:id="@+id/ccv"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -183,7 +183,7 @@
                             app:title="Бытовая химия, хозтовары"
                             app:viewSize="medium" />
 
-                        <kg.devcats.chili3.view.card.MarketCategoryCardView
+                        <kg.nurtelecom.design.chili3.view.card.MarketCategoryCardView
                             android:id="@+id/ccv1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -193,7 +193,7 @@
                             app:title="Бытовая химия, хозтовары"
                             app:viewSize="large" />
 
-                        <kg.devcats.chili3.view.card.MarketCategoryCardView
+                        <kg.nurtelecom.design.chili3.view.card.MarketCategoryCardView
                             android:id="@+id/ccv2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -208,9 +208,9 @@
 
                 </HorizontalScrollView>
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:id="@+id/ec_stories"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -228,7 +228,7 @@
                         android:layout_height="wrap_content"
                         android:orientation="horizontal">
 
-                        <kg.devcats.chili3.view.card.StoriesCardView
+                        <kg.nurtelecom.design.chili3.view.card.StoriesCardView
                             android:id="@+id/scv_stories"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -240,7 +240,7 @@
                             app:storiesSrc="https://minio.o.kg/media-service/BannerConfigurator/light/125ac05b-0cbb-4bde-9da0-1f090d1fac2e"
                             app:viewedBorder="@drawable/chili_bg_viewed_stories" />
 
-                        <kg.devcats.chili3.view.card.StoriesCardView
+                        <kg.nurtelecom.design.chili3.view.card.StoriesCardView
                             android:id="@+id/scv_stories_1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -251,7 +251,7 @@
                             app:cardIconSize="medium"
                             app:storiesSrc="https://minio.o.kg/media-service/BannerConfigurator/light/de574e23-7478-43af-b3df-b572093b818c" />
 
-                        <kg.devcats.chili3.view.card.StoriesCardView
+                        <kg.nurtelecom.design.chili3.view.card.StoriesCardView
                             android:id="@+id/scv_stories_2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -268,9 +268,9 @@
 
                 </HorizontalScrollView>
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:id="@+id/ec_promo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -290,14 +290,14 @@
                         android:clipToPadding="false"
                         android:orientation="horizontal">
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -306,16 +306,16 @@
                                 app:promoStatusText="Новое"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo1"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -324,16 +324,16 @@
                                 app:promoStatusText="Активный"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo2"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -342,17 +342,17 @@
                                 app:promoStatusText="Просрочен"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo4"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -361,16 +361,16 @@
                                 app:promoStatusText="В ожидании"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo143"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -379,16 +379,16 @@
                                 app:promoStatusText="Freezed"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo142323"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -397,9 +397,9 @@
                                 app:promoStatusText="Approved"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -407,7 +407,7 @@
                             android:layout_marginStart="@dimen/padding_12dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.PromoCardView
+                            <kg.nurtelecom.design.chili3.view.card.PromoCardView
                                 android:id="@+id/pcv_promo3"
                                 android:layout_width="148dp"
                                 android:layout_height="wrap_content"
@@ -415,15 +415,15 @@
                                 app:promoStatus="no_status"
                                 app:title="Рассрочка 0-0-12" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
                     </LinearLayout>
 
                 </HorizontalScrollView>
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-            <com.design2.chili2.view.container.ExpandableContainer
+            <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
                 android:id="@+id/ec_product"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -443,14 +443,14 @@
                         android:clipToPadding="false"
                         android:orientation="horizontal">
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -461,16 +461,16 @@
                                 app:subtitle="833,3 с x 12мес"
                                 app:title="98 000,00 с" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginVertical="@dimen/padding_12dp"
                             android:layout_marginStart="@dimen/padding_4dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_1"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -479,9 +479,9 @@
                                 app:productImage="https://t3.ftcdn.net/jpg/07/07/97/98/360_F_707979824_Bc71cQJfIU3HY1vJHJpqM0MuaVWUnEsz.jpg"
                                 app:title="10 000,00 с" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -489,7 +489,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_2"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -500,9 +500,9 @@
                                 app:subtitle="174,1 с x 12мес"
                                 app:title="2 090,00 с" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -510,7 +510,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_3"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -522,9 +522,9 @@
                                 app:subtitle="174,1 с x 12мес"
                                 app:title="2 090,00 с" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -532,7 +532,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_4"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -543,9 +543,9 @@
                                 app:productImage="https://img.freepik.com/premium-photo/cosmetic-products-stand-orange-backdrop-providing-room-text-advertising-vertical-mobile_896558-17993.jpg"
                                 app:title="2 090,00 с" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -553,7 +553,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_5"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -563,9 +563,9 @@
                                 app:title="2 090,00 с"
                                 />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -573,7 +573,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_6"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -584,9 +584,9 @@
                                 app:productImage="https://img.freepik.com/premium-photo/cosmetic-products-stand-orange-backdrop-providing-room-text-advertising-vertical-mobile_896558-17993.jpg"
                                 app:title="2 090,00 с" />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -594,7 +594,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_7"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -604,9 +604,9 @@
                                 app:title="2 090,00 с"
                                 />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                             style="@style/ShadowLayoutStyle"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -614,7 +614,7 @@
                             android:layout_marginStart="@dimen/padding_4dp"
                             android:layout_marginEnd="@dimen/padding_12dp">
 
-                            <kg.devcats.chili3.view.card.ProductCardView
+                            <kg.nurtelecom.design.chili3.view.card.ProductCardView
                                 android:id="@+id/pcv_product_8"
                                 android:layout_width="168dp"
                                 android:layout_height="wrap_content"
@@ -624,17 +624,17 @@
                                 app:title="2 090,00 с"
                                 />
 
-                        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
                     </LinearLayout>
 
                 </HorizontalScrollView>
 
-            </com.design2.chili2.view.container.ExpandableContainer>
+            </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ec_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -644,14 +644,14 @@
             app:isNeedToSaveExpandedState="true"
             app:title="ExpandableCardContainer">
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_16dp"
                 android:layout_marginTop="@dimen/padding_12dp">
 
-                <com.design2.chili2.view.container.ExpandableCardContainer
+                <kg.nurtelecom.design.chili2.view.container.ExpandableCardContainer
                     android:id="@+id/expandable"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -660,14 +660,14 @@
                     app:subtitle="Дата погашения: 10.10.2022"
                     app:title="К погашению: 8 200,00 с">
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:title="Сумма к зачислению:"
                         app:titleValue="8 000,00 с" />
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -676,24 +676,24 @@
                         app:title="Сумма кредита: "
                         app:titleValue="8 150,00 с" />
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:title="Сумма % по кредиту: " />
 
-                </com.design2.chili2.view.container.ExpandableCardContainer>
+                </kg.nurtelecom.design.chili2.view.container.ExpandableCardContainer>
 
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_16dp"
                 android:layout_marginTop="@dimen/padding_12dp">
 
-                <com.design2.chili2.view.container.ExpandableCardContainer
+                <kg.nurtelecom.design.chili2.view.container.ExpandableCardContainer
                     android:id="@+id/expandable2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -702,14 +702,14 @@
                     app:subtitle="Дата погашения: 10.10.2022"
                     app:title="К погашению: 8 200,00 с">
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item21"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:title="Сумма к зачислению:"
                         app:titleValue="8 000,00 с" />
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item22"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -718,7 +718,7 @@
                         app:title="Сумма кредита: "
                         app:titleValue="8 150,00 с" />
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item2223"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -726,18 +726,18 @@
                         app:subtitleValue="200,00с"
                         app:subtitleEndIcon="@drawable/chili_ic_warning" />
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item23"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:title="Сумма % по кредиту: "
                         app:value="50,00 с" />
 
-                </com.design2.chili2.view.container.ExpandableCardContainer>
+                </kg.nurtelecom.design.chili2.view.container.ExpandableCardContainer>
 
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -745,7 +745,7 @@
                 android:layout_marginTop="@dimen/padding_12dp"
                 android:layout_marginBottom="@dimen/padding_16dp">
 
-                <com.design2.chili2.view.container.ExpandableCardContainer
+                <kg.nurtelecom.design.chili2.view.container.ExpandableCardContainer
                     android:id="@+id/expandable3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -754,7 +754,7 @@
                     app:title="К погашению"
                     app:value="8 200,00 с">
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item32"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -763,20 +763,20 @@
                         app:title="Сумма кредита: "
                         app:titleValue="8 150,00 с" />
 
-                    <com.design2.chili2.view.card.ExpandableCardItemView
+                    <kg.nurtelecom.design.chili2.view.card.ExpandableCardItemView
                         android:id="@+id/item33"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:title="Сумма % по кредиту: "
                         app:value="50,00 с" />
 
-                </com.design2.chili2.view.container.ExpandableCardContainer>
+                </kg.nurtelecom.design.chili2.view.container.ExpandableCardContainer>
 
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ec_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -792,7 +792,7 @@
                 android:clipToPadding="false"
                 android:orientation="horizontal">
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -800,17 +800,17 @@
                     android:layout_marginStart="@dimen/padding_16dp"
                     android:layout_weight="2">
 
-                    <com.design2.chili2.view.card.CategoryCardView
+                    <kg.nurtelecom.design.chili2.view.card.CategoryCardView
                         android:id="@+id/cat_1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_payment"
                         app:title="Переводы" />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -819,20 +819,20 @@
                     android:layout_marginEnd="@dimen/padding_16dp"
                     android:layout_weight="1">
 
-                    <com.design2.chili2.view.card.CategoryCardView
+                    <kg.nurtelecom.design.chili2.view.card.CategoryCardView
                         android:id="@+id/cat_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_payment"
                         app:title="Centered" />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
             </LinearLayout>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ec_category_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -849,7 +849,7 @@
                 android:orientation="horizontal"
                 android:theme="@style/ThemeOverlay.CategoryCardIcon8dpOffset">
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -857,16 +857,16 @@
                     android:layout_marginStart="@dimen/padding_16dp"
                     android:layout_weight="1">
 
-                    <com.design2.chili2.view.card.CategoryCardView
+                    <kg.nurtelecom.design.chili2.view.card.CategoryCardView
                         android:id="@+id/cat_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_payment"
                         app:title="Народный\nБонусная" />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -875,20 +875,20 @@
                     android:layout_marginEnd="74dp"
                     android:layout_weight="1">
 
-                    <com.design2.chili2.view.card.CategoryCardView
+                    <kg.nurtelecom.design.chili2.view.card.CategoryCardView
                         android:id="@+id/cat_4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_payment"
                         app:title="Кофейня.\nБонусная." />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
             </LinearLayout>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ec_paymrne"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -904,59 +904,59 @@
                 android:clipToPadding="false"
                 android:orientation="horizontal">
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="@dimen/padding_16dp"
                     android:layout_weight="1">
 
-                    <com.design2.chili2.view.card.PaymentCardView
+                    <kg.nurtelecom.design.chili2.view.card.PaymentCardView
                         android:id="@+id/pcv_1"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/view_80dp"
                         app:icon="@drawable/ic_arrow_right"
                         app:title="Вывести" />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginHorizontal="@dimen/padding_16dp"
                     android:layout_weight="1">
 
-                    <com.design2.chili2.view.card.PaymentCardView
+                    <kg.nurtelecom.design.chili2.view.card.PaymentCardView
                         android:id="@+id/pcv_2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_plus"
                         app:title="Пополнить" />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                     style="@style/ShadowLayoutStyle"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="@dimen/padding_16dp"
                     android:layout_weight="1">
 
-                    <com.design2.chili2.view.card.PaymentCardView
+                    <kg.nurtelecom.design.chili2.view.card.PaymentCardView
                         android:id="@+id/pcv_3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         app:icon="@drawable/ic_qr_code"
                         app:title="QR-код" />
 
-                </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
             </LinearLayout>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ec_simplemCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -978,14 +978,14 @@
                     android:clipToPadding="false"
                     android:orientation="horizontal">
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginVertical="@dimen/padding_16dp"
                         android:layout_marginStart="@dimen/padding_8dp">
 
-                        <com.design2.chili2.view.card.SimpleCardView
+                        <kg.nurtelecom.design.chili2.view.card.SimpleCardView
                             android:id="@+id/simple"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -994,16 +994,16 @@
                             app:icon="@drawable/ic_scaner_48"
                             app:title="4215585318631234" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginVertical="@dimen/padding_16dp"
                         android:layout_marginStart="@dimen/padding_8dp">
 
-                        <com.design2.chili2.view.card.SimpleCardView
+                        <kg.nurtelecom.design.chili2.view.card.SimpleCardView
                             android:id="@+id/simple2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1012,16 +1012,16 @@
                             app:icon="@drawable/ic_scaner_48"
                             app:title="4215585318631234" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="@dimen/padding_8dp"
                         android:layout_marginVertical="@dimen/padding_16dp">
 
-                        <com.design2.chili2.view.card.SimpleCardView
+                        <kg.nurtelecom.design.chili2.view.card.SimpleCardView
                             android:id="@+id/simple3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1030,15 +1030,15 @@
                             app:icon="@drawable/ic_scaner_48"
                             app:title="4215585318631234" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
                 </LinearLayout>
 
             </HorizontalScrollView>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/ecv_rv_container"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1054,9 +1054,9 @@
                 android:paddingTop="@dimen/padding_8dp"
                 android:paddingEnd="@dimen/padding_8dp" />
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/balanceContainer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1078,7 +1078,7 @@
                     android:clipToPadding="false"
                     android:orientation="horizontal">
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
@@ -1086,23 +1086,23 @@
                         android:layout_marginEnd="@dimen/padding_8dp"
                         android:layout_marginBottom="@dimen/padding_16dp">
 
-                        <com.design2.chili2.view.card.BalanceCardView
+                        <kg.nurtelecom.design.chili2.view.card.BalanceCardView
                             android:id="@+id/bal1"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             app:title="Баланс"
                             app:value="1 002 062 c" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/padding_16dp"
                         android:layout_marginBottom="@dimen/padding_16dp">
 
-                        <com.design2.chili2.view.card.BalanceCardView
+                        <kg.nurtelecom.design.chili2.view.card.BalanceCardView
                             android:id="@+id/bal2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1112,16 +1112,16 @@
                             app:icon="@drawable/chili_ic_bank_cards"
                             app:title="Баланс" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/padding_16dp"
                         android:layout_marginBottom="@dimen/padding_16dp">
 
-                        <com.design2.chili2.view.card.BalanceCardView
+                        <kg.nurtelecom.design.chili2.view.card.BalanceCardView
                             android:id="@+id/bal3"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1135,16 +1135,16 @@
                             app:titleIcon="@drawable/chili_ic_bank_cards"
                             app:value="1 000 c" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/padding_16dp"
                         android:layout_marginBottom="@dimen/padding_16dp">
 
-                        <com.design2.chili2.view.card.BalanceCardView
+                        <kg.nurtelecom.design.chili2.view.card.BalanceCardView
                             android:id="@+id/bal4"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -1153,15 +1153,15 @@
                             android:focusable="true"
                             app:title="Баланс" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
                 </LinearLayout>
 
             </HorizontalScrollView>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/promoBankCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1178,7 +1178,7 @@
                 android:orientation="vertical">
 
 
-                <com.design2.chili2.view.card.BankCardView
+                <kg.nurtelecom.design.chili2.view.card.BankCardView
                     android:id="@+id/bank_card_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -1191,7 +1191,7 @@
                     app:dueDate="12 /  25"
                     app:startIcon="@drawable/gpay" />
 
-                <com.design2.chili2.view.card.BankCardView
+                <kg.nurtelecom.design.chili2.view.card.BankCardView
                     android:id="@+id/bank_card_icon"
                     android:layout_width="match_parent"
                     android:layout_height="280dp"
@@ -1205,9 +1205,9 @@
 
             </LinearLayout>
 
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/promoBankingCardView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1223,7 +1223,7 @@
                 android:clipToPadding="false"
                 android:orientation="vertical">
 
-                <kg.devcats.chili3.view.card.BankingCardView
+                <kg.nurtelecom.design.chili3.view.card.BankingCardView
                     android:id="@+id/banking_card_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -1236,9 +1236,9 @@
                     app:dueDate="12 /  25"
                     app:startIcon="@drawable/gpay" />
             </LinearLayout>
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.container.ExpandableContainer
+        <kg.nurtelecom.design.chili2.view.container.ExpandableContainer
             android:id="@+id/promoBannerCard"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -1267,14 +1267,14 @@
                     android:orientation="horizontal"
                     android:paddingHorizontal="@dimen/padding_16dp">
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         android:id="@+id/visa_shadow"
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="@dimen/padding_16dp">
 
-                        <com.design2.chili2.view.card.PromoBannerCardView
+                        <kg.nurtelecom.design.chili2.view.card.PromoBannerCardView
                             android:id="@+id/pbcv_visa"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/view_80dp"
@@ -1289,15 +1289,15 @@
                             app:titleTextAppearance="@style/Chili.H7.Primary.Bold"
                             app:titleTextColor="?ChiliPrimaryTextColor" />
 
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-                    <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+                    <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                         android:id="@+id/elcap_shadow"
                         style="@style/ShadowLayoutStyle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
 
-                        <com.design2.chili2.view.card.PromoBannerCardView
+                        <kg.nurtelecom.design.chili2.view.card.PromoBannerCardView
                             android:id="@+id/pbcv_elcap"
                             android:layout_width="match_parent"
                             android:layout_height="@dimen/view_80dp"
@@ -1309,14 +1309,14 @@
                             app:subtitleTextAppearance="@style/Chili.H9.Primary"
                             app:title="Карта ЭЛКАРТ"
                             app:titleTextAppearance="@style/Chili.H7.Primary.700" />
-                    </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+                    </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
                 </LinearLayout>
 
             </HorizontalScrollView>
-        </com.design2.chili2.view.container.ExpandableContainer>
+        </kg.nurtelecom.design.chili2.view.container.ExpandableContainer>
 
-        <com.design2.chili2.view.image.AutoScrollCarouselImageView
+        <kg.nurtelecom.design.chili2.view.image.AutoScrollCarouselImageView
             android:id="@+id/banner_view1"
             android:layout_width="match_parent"
             android:layout_height="@dimen/view_80dp"
@@ -1331,31 +1331,31 @@
             android:clipChildren="false"
             android:orientation="horizontal">
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_8dp"
                 android:layout_marginTop="@dimen/padding_16dp">
 
-                <com.design2.chili2.view.card.BonusPartnerCardItemView
+                <kg.nurtelecom.design.chili2.view.card.BonusPartnerCardItemView
                     android:id="@+id/bonus_partner_card"
                     android:layout_width="120dp"
                     android:layout_height="96dp" />
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
-            <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+            <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
                 style="@style/ShadowLayoutStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="@dimen/padding_8dp"
                 android:layout_marginTop="@dimen/padding_16dp">
 
-                <com.design2.chili2.view.card.BonusPartnerCardItemView
+                <kg.nurtelecom.design.chili2.view.card.BonusPartnerCardItemView
                     android:id="@+id/bonus_partner_card2"
                     android:layout_width="120dp"
                     android:layout_height="96dp" />
-            </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+            </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         </LinearLayout>
 
@@ -1366,7 +1366,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             android:orientation="horizontal">
 
-            <kg.devcats.chili3.view.card.IconStateCardView
+            <kg.nurtelecom.design.chili3.view.card.IconStateCardView
                 android:id="@+id/iconStateCardView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1375,7 +1375,7 @@
                 app:subtitle="Налоги, авто и комуслуги"
                 app:title="Услуги" />
 
-            <kg.devcats.chili3.view.card.IconStateCardView
+            <kg.nurtelecom.design.chili3.view.card.IconStateCardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -1391,7 +1391,7 @@
             android:layout_marginTop="@dimen/padding_16dp"
             android:orientation="vertical">
 
-            <kg.devcats.chili3.view.card.InfoCardView
+            <kg.nurtelecom.design.chili3.view.card.InfoCardView
                 android:id="@+id/aaa"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1401,7 +1401,7 @@
                 app:subtitle="Подтвердите личность, чтобы получить доступ ко всем услугам"
                 app:title="У вас новый смартфон?" />
 
-            <kg.devcats.chili3.view.card.InfoCardView
+            <kg.nurtelecom.design.chili3.view.card.InfoCardView
                 android:id="@+id/aaa12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1411,7 +1411,7 @@
                 app:subtitle="Подтвердите личность, чтобы получить доступ ко всем услугам"
                 app:title="У вас новый смартфон?" />
 
-            <kg.devcats.chili3.view.card.InfoCardView
+            <kg.nurtelecom.design.chili3.view.card.InfoCardView
                 android:id="@+id/bbb"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1422,14 +1422,14 @@
                 app:title="Мы заблокировали ваш платёжный аккаунт в целях безопасности" />
         </LinearLayout>
 
-        <com.design2.chili2.view.container.shadow_layout.ShadowLayout
+        <kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout
             style="@style/ShadowLayoutStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/padding_8dp"
             android:layout_marginTop="@dimen/padding_16dp">
 
-            <kg.devcats.chili3.view.card.MyConnectionCardView
+            <kg.nurtelecom.design.chili3.view.card.MyConnectionCardView
                 android:id="@+id/my_connection_card_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -1444,7 +1444,7 @@
                 app:unlimitedText="Безлимит"
                 app:withoutPackageSubtitle="Tariffication in minutes"
                 app:withoutPackageTitle="Ваш тариф: " />
-        </com.design2.chili2.view.container.shadow_layout.ShadowLayout>
+        </kg.nurtelecom.design.chili2.view.container.shadow_layout.ShadowLayout>
 
         <TextView
             android:layout_width="match_parent"
@@ -1454,58 +1454,58 @@
             android:text="CaptionsCardView" />
 
 
-        <kg.devcats.chili3.view.card.CaptionsCardView
+        <kg.nurtelecom.design.chili3.view.card.CaptionsCardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/padding_16dp"
             app:title="Ежемесячный платёж"
             app:value="5000" />
 
-        <kg.devcats.chili3.view.card.InfoBlockCardView
+        <kg.nurtelecom.design.chili3.view.card.InfoBlockCardView
             android:id="@+id/info_block_card_view1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/padding_16dp" />
 
-        <kg.devcats.chili3.view.card.InfoBlockCardView
+        <kg.nurtelecom.design.chili3.view.card.InfoBlockCardView
             android:id="@+id/info_block_card_view2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/padding_16dp" />
 
-        <kg.devcats.chili3.view.card.InfoBlockCardView
+        <kg.nurtelecom.design.chili3.view.card.InfoBlockCardView
             android:id="@+id/info_block_card_view3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/padding_16dp" />
 
-        <kg.devcats.chili3.view.card.InfoBlockCardView
+        <kg.nurtelecom.design.chili3.view.card.InfoBlockCardView
             android:id="@+id/info_block_card_view4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/padding_16dp" />
 
-        <kg.devcats.chili3.view.card.InfoBlockCardView
+        <kg.nurtelecom.design.chili3.view.card.InfoBlockCardView
             android:id="@+id/info_block_card_view5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/padding_16dp" />
 
-        <kg.devcats.chili3.view.card.CardHorizontalDivider
+        <kg.nurtelecom.design.chili3.view.card.CardHorizontalDivider
             android:id="@+id/cardSections1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_margin="@dimen/padding_16dp"/>
 
-        <kg.devcats.chili3.view.card.CardHorizontalDivider
+        <kg.nurtelecom.design.chili3.view.card.CardHorizontalDivider
             android:id="@+id/cardSections2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="@dimen/padding_16dp"
             android:layout_margin="@dimen/padding_16dp"/>
 
-        <com.design2.chili2.view.card.SimplePromoBannerCardView
+        <kg.nurtelecom.design.chili2.view.card.SimplePromoBannerCardView
             android:id="@+id/simplePromoBanner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

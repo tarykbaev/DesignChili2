@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 
-    <com.design2.chili2.view.cells.DetailCellView
+    <kg.nurtelecom.design.chili2.view.cells.DetailCellView
         android:id="@+id/item"
         android:layout_marginHorizontal="@dimen/view_16dp"
         android:layout_marginVertical="@dimen/view_4dp"

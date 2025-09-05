@@ -7,7 +7,7 @@
     android:background="?ChiliScreenBackground"
     android:orientation="vertical">
 
-    <kg.devcats.chili3.view.container.ExpandableGridRecyclerView
+    <kg.nurtelecom.design.chili3.view.container.ExpandableGridRecyclerView
         android:id="@+id/rv_items"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
